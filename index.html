@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="icon" href="./img/logo.jpg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/3480d66e48.js" crossorigin="anonymous"></script>
+
+    <title>Club Del Barista</title>
+
+</head>
+<body>
+    <header id="web">
+        <nav  class="web">
+            
+
+            <ul class="headers left">
+                <li><a href="#web">Inicio</a></li>
+                <li><a href="#main">Información</a></li>
+                <li><a href="#intro-icons">Contáctanos</a></li>
+            </ul>
+
+            <div class="headers center">
+                <img class="logo-header" src="./img/logo.jpg" alt="Logo">
+            </div>
+            
+
+            <div class="headers right">
+                <div class="wrapper">
+                    <a class="button" href="#container-buy-info">Comprar Ya!</a>
+                </div>
+                
+                <!-- Filter: https://css-tricks.com/gooey-effect/ -->
+                <svg style="visibility: hidden; position: absolute;" width="0" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                    <defs>
+                        <filter id="goo"><feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />    
+                            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+                            <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+                        </filter>
+                    </defs>
+                </svg>
+            </div>
+            
+
+        </nav>
+
+        <nav class="movil">
+            <img class="menu-toggle" src="./img/menu_burguer.png" alt="menu">
+
+            <ul class="movil2">
+                <li><a href="#web">Inicio</a></li>
+                <li><a href="#main">Información</a></li>
+                <li><a href="#intro-icons">Contáctanos</a></li>
+            </ul>
+
+            <div class="headers center">
+                <img class="logo-header" src="./img/logo.jpg" alt="Logo">
+            </div>
+            
+
+            <div class="headers right">
+                <div class="wrapper">
+                    <a class="button" href="#container-buy-info">Comprar Ya!</a>
+                </div>
+                
+                <!-- Filter: https://css-tricks.com/gooey-effect/ -->
+                <svg style="visibility: hidden; position: absolute;" width="0" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                    <defs>
+                        <filter id="goo"><feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />    
+                            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+                            <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+                        </filter>
+                    </defs>
+                </svg>
+            </div>
+            
+
+        </nav>
+    </header>
+
+    <main>
+        <div id="main" class="question">
+            <img class="img-question" src="./img/barismo_ejemplo.jpg" alt="">
+            
+            <div class="">
+                <h3 class="text-question">
+                    ¿Quieres convertirte en un experto en café 
+                    <br> 
+                    y dominar el arte del barismo?
+                </h3>
+
+                <p class="text-question2">
+                    Entonces, este curso online de barismo es para ti...
+                </p>
+            </div>
+            
+        </div>
+
+        <div class="text-course">
+            <p class="text-course-text">
+                En este curso, aprenderás todo lo que necesitas saber para convertirte en un barista experto, 
+                desde los fundamentos del café hasta las técnicas avanzadas de preparación y presentación. Aprenderás a preparar 
+                una amplia variedad de bebidas de café, incluyendo espresso perfecto, capuchino, latte, americano, y más. También aprenderás 
+                técnicas avanzadas de preparación, como el arte latte, y cómo presentar tus bebidas con estilo.
+            </p>
+
+            <img class="text-course-img" src="./img/barismo_img2.jpg" alt="barismo">
+        </div>
+
+        <div class="video">
+            <div class="background-video">
+                
+                <div class="temario">
+                    <h4 class="text-iframe">Un poco de todo lo que aprenderás...</h4>
+                    
+                    <div class="left-temario">
+                        <iframe class="video-iframe" src="https://drive.google.com/file/d/1EH2lLtqmaMSVK6Pf8R0TErmhlbLDQREJ/preview" width="800" height="580" allow="autoplay"></iframe>
+                        <p>
+                            Bajo la guía de Will Mateo Huertas, barista profesional hace más de 10 años. Para quien el barismo y el bartending, más que su profesión es su su vocación 
+                            y estilo de vida, ganando mas de 5 concursos internacionales. Ha enseñado a mas de 2.500 personas al rededor del mundo, enamorándolas del café y formandolas 
+                            profesionalmente como baristas.
+                        </p>
+                    </div>
+                    
+
+                    <img class="temario-img" src="./img/Temario.png" alt="">
+                </div>
+                
+
+                <div class="messages">
+                    <hr class="linea"> <h4>Casos de éxito</h4> <hr class="linea">
+                    
+                </div>
+
+                <div style="width: 500px; height: 700px; margin: auto;" id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="./img/Mensaje4.jpeg" alt="First slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="./img/Mensaje2.jpeg" alt="Second slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="./img/Mensaje3.jpeg" alt="Third slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="./img/Mensaje5.jpeg" alt="Third slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="./img/Mensaje6.jpeg" alt="Third slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="./img/Mensaje7.jpeg" alt="Third slide">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span style="padding: 15px; border-radius: 100%;" class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span style="padding: 15px; border-radius: 100%;" class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+
+                  <footer>
+
+                    <div class="content-footer">
+                        <div class="content">
+                            <h2>En esta formación aprenderás ...</h2>
+                            <p>
+                                <br>
+                                <li>Las mejores técnicas de elaboración de cafés clásicos y conocimiento de todos los utensilios, la máquina de café y sus funciones.</li>
+                                <br>
+                                <li>Todos los métodos de preparación de café con diferentes cafeteras </li>
+                                <br>
+                                <li>Hacer diseños con la espuma de la leche sobre el café creando preparaciones únicas</li>
+                                <br>
+                                <li>Preparar capuccino, affogato, latte, shakerato y muchos tipos más de cafetería italiana caliente y fría.</li>
+                                <br>
+                                <li>Utilizar la cantidad correcta de ingredientes para que tus bebidas queden perfectas.</li>
+                            </p>
+
+                        </div>
+
+                        <div class="content">
+                            <h2>Beneficios de nuestro programa ...</h2>
+                            <ul>
+                                <br>
+                                <li>Aprender a tu propio ritmo, podrer ver las clases las veces que desees.</li>
+                                <br>
+                                <li>Tener acceso a la plataforma por siempre.</li>
+                                <br>
+                                <li>Empezar tu propia cafetería.</li>
+                                <br>
+                                <li>Posibilidad de mejorar tu currículum con la certificación y laborar en las mejores cafeterías</li> 
+                                <br>
+                                <li>Acceso a un grupo VIP de acompañamiento por facebook.</li> 
+                            </ul>
+                            
+                        </div>
+
+                    </div>
+
+                </footer>
+
+                <div id="container-buy-info" class="container-buy">
+                    <div style="width: 100%; margin: 0px 0 60px;"" class="messages">
+                        <hr style="background-color: black;" class="linea"> <h4 style="color: black; font-weight: bold;" >Compra el curso con el 50% de descuento</h4> <hr style="background-color: black;" class="linea">
+                        
+                    </div>
+                    <div class="container-buy-img">
+                        <img src="./img/caratula.jpg" alt="">
+                    </div>
+
+                    <div class="container-buy-info">
+                        
+                        <h4><b> Barista Principiante</b></h4>
+
+                        <p>
+                            Con esta oportunidad, miles de personas han logrado grandes resultados en sus cafeterías aplicando 
+                            los conocimientos aprendidos. Queremos que TÚ seas nuestro próximo caso de éxito, es por eso que hemos 
+                            preparado un descuento especial del 50%, descuento valido solo para las personas que inscriban hoy al 
+                            curso, luego volverá al precio anterior de $49.99 USD.
+                        </p>
+
+                        <section>
+                            <p class="hours-time">
+                                <span id="days"></span> <span id="hours"></span> <span>:</span>  <span id="minutes"></span> <span>:</span> <span id="seconds"></span>
+                            </p>
+                        </section>
+
+                        <a class="btn-curso" href="https://go.hotmart.com/V79554940H?ap=7e42">Comprar</a>
+                    
+                </div>
+
+            </div>
+            
+        </div>
+
+        
+        
+
+    </main>
+
+    <div class="question-and-answer">
+        <h1>PREGUNTAS FRECUENTES</h1>
+        <br>
+         <p class="questions-footer">¿Cómo puedo acceder al descuento?</p> 
+         <br>
+         <p class="answer-footer">El descuento se encuentra disponible ahora, inscribete dándole clic en el botón «COMPRAR» y te dirigirá a la página de pago. 
+         ¡Aprovechalo hoy!</p>
+         
+         <br>
+         <br>
+
+         <p class="questions-footer">¿Necesito algún conocimiento previo?</p> 
+         <br>
+         <p class="answer-footer">No te preocupes, el curso está diseñado para todos, incluso las personas que no tienen conocimiento previo lo pueden 
+         realizar y aprender perfectamente.</p>
+         
+         <br>
+         <br>
+
+         <p class="questions-footer">No tengo una máquina espresso ¿puedo tomar el curso?</p>
+         <br>
+         <p class="answer-footer">
+            ¡Claro que si! No hay ningún problema, puedes comenzar con lo que tenemos todos en casa
+        </p>
+
+        <br><br>
+
+         <p class="questions-footer">¿Cuándo inicia el curso y cuanto dura?</p> 
+         <br>
+         <p class="answer-footer">
+             Puedes iniciarlo ahora mismo y desarrollarlo a tu tiempo, en tu propio horario, el curso ES PARA TODA LA VIDA.
+         </p>
+
+         <br><br>
+
+         <p class="questions-footer">¿Por dónde accedo a las clases?</p> 
+         <br>
+         <p class="answer-footer">
+             El programa está alojado en Hotmart (plataforma líder de cursos online), que después de la compra, recibirás un 
+             correo electrónico con el enlace que te dirigirá al programa, donde esta tu usuario y contraseña. Puedes visualizar 
+             el contenido desde la PC, celular o Tablet, incluso tener la posibilidad de descargar las clases que desees.
+         </p>
+            
+         <br><br>
+
+         <p class="questions-footer">¿Tendré que pagar algo adicional?</p> 
+         <br>
+         <p class="answer-footer">
+             No, este es el valor final a pagar, no existe mensualidades ni cobros posteriores y las actualizaciones 
+             son 100% gratuitas.
+         </p>
+    
+         <br><br>
+
+         <p class="questions-footer">¿En qué formato está el Programa?</p> 
+         <br>
+         <p class="answer-footer">Nuestro curso se encuentra dividido por módulos en formato de vídeo, donde puedes avanzar, 
+             pausar y retomar las veces que consideres.
+         </p>
+
+         <br><br>
+
+         <p class="questions-footer">¿Es seguro el pago?</p> 
+         <br>
+         <p class="answer-footer">
+            La compra es 100% segura, todos los pagos se realizan a través de Hotmart que tiene uno de los sistemas de pago más 
+            importantes del mundo.
+        </p>
+
+        <br><br>
+
+         <p class="questions-footer">¿Cómo obtengo el certificado del curso?</p>
+         <br>
+         <p class="answer-footer">
+            Luego de que termines el curso, la plataforma te brindará automáticamente la opción para descargar el certificado
+        </p>
+
+        <br><br>
+
+         <p class="questions-footer">¿Qué necesitas para realizar este curso?</p>
+         <br>
+         <p class="answer-footer"> 
+            Para realizar este curso lo que único que vas a necesitar es una herramienta de trabajo ya sea un teléfono, computadora o laptop, 
+            muchas ganas de aprender y, sobre todo, querer llevar tus sueños de barista a otro nivel.
+        </p>
+
+    </div>
+
+    <div id="intro-icons" class="footer-final">
+        <div class="intro_icons">
+            <a href="https://wa.me/message/T6NHMRPNUL6NG1"><i id="what" class="fa-brands fa-whatsapp intro_icon_unit"></i></a>
+            <a href="https://www.tiktok.com/@clubdelbarista_?_t=8bnmxbDZdZN&_r=1"><i id="tik-tok" class="fa-brands fa-tiktok intro_icon_unit"></i></a>
+            <a href="https://instagram.com/clubdelbarista_?igshid=YmMyMTA2M2Y="><i id="instagram" class="fa-brands fa-instagram intro_icon_unit"></i></a>
+        </div>
+    </div>
+
+    <script>
+
+        const DATE_TARGET = new Date('05/1/2028 0:01 AM');
+        // DOM for render
+        const SPAN_DAYS = document.querySelector('span#days');
+        const SPAN_HOURS = document.querySelector('span#hours');
+        const SPAN_MINUTES = document.querySelector('span#minutes');
+        const SPAN_SECONDS = document.querySelector('span#seconds');
+        // Milliseconds for the calculations
+        const MILLISECONDS_OF_A_SECOND = 1000;
+        const MILLISECONDS_OF_A_MINUTE = MILLISECONDS_OF_A_SECOND * 60;
+        const MILLISECONDS_OF_A_HOUR = MILLISECONDS_OF_A_MINUTE * 60;
+        const MILLISECONDS_OF_A_DAY = MILLISECONDS_OF_A_HOUR * 24
+
+        //===
+        // FUNCTIONS
+        //===
+
+        /**
+         * Method that updates the countdown and the sample
+         */
+        function updateCountdown() {
+            // Calcs
+            const NOW = new Date()
+            const DURATION = DATE_TARGET - NOW;
+            const REMAINING_DAYS = Math.floor(DURATION / MILLISECONDS_OF_A_DAY);
+            const REMAINING_HOURS = Math.floor((DURATION % MILLISECONDS_OF_A_DAY) / MILLISECONDS_OF_A_HOUR);
+            const REMAINING_MINUTES = Math.floor((DURATION % MILLISECONDS_OF_A_HOUR) / MILLISECONDS_OF_A_MINUTE);
+            const REMAINING_SECONDS = Math.floor((DURATION % MILLISECONDS_OF_A_MINUTE) / MILLISECONDS_OF_A_SECOND);
+            // Thanks Pablo Monteserín (https://pablomonteserin.com/cuenta-regresiva/)
+
+            // Render
+            SPAN_DAYS.textContent = REMAINING_DAYS;
+            SPAN_HOURS.textContent = REMAINING_HOURS;
+            SPAN_MINUTES.textContent = REMAINING_MINUTES;
+            SPAN_SECONDS.textContent = REMAINING_SECONDS;
+        }
+
+        //===
+        // INIT
+        //===
+        updateCountdown();
+        // Refresh every second
+        setInterval(updateCountdown, MILLISECONDS_OF_A_SECOND);
+
+
+
+
+        const menuToggle = document.querySelector('.menu-toggle');
+        const menu = document.querySelector('.movil');
+
+        menuToggle.addEventListener('click', () => {
+            menu.classList.toggle('active');
+        });
+
+
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
